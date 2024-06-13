@@ -1,12 +1,11 @@
 import React from 'react'
-import Spline from "@splinetool/react-spline"
 
 const Proyects = () => {
   return (
     <div>
       <div className='flex px-100'>
       <div className=' floating'>
-        <img src="src/assets/intento7.png" alt="" />
+        <img src="src/assets/intento7.png" alt="grupo hydro tecnova" />
        {/* <Spline scene="https://prod.spline.design/eSuK65aIGaGpWj1k/scene.splinecode" />  */}
        </div>
         <div className='my-26  mx-40'>

@@ -30,7 +30,7 @@ const Hero = () => {
                 </p>
                 
                 <div className='my-3  '>
-                <img src="../src/assets/vector.png" className="w-44 vector " alt="" />
+                <img src="src/assets/vector.png" className="w-44 vector " alt="Vector" />
                 </div>
                 </div>
                 <h1 className="px-6 my-10 text-lg font-bold text-gray-600 poppins-bold" >For <span className='text-green'>everyone.</span></h1>
