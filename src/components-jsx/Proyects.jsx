@@ -6,7 +6,7 @@ const Proyects = () => {
       <div className='flex px-100'>
       <div className=' floating'>
         <img src="../assets/intento7.png" alt="grupo hydro tecnova" />
-       {/* <Spline scene="https://prod.spline.design/eSuK65aIGaGpWj1k/scene.splinecode" />  */}
+       
        </div>
         <div className='my-26  mx-40'>
         <div className='mx-10'>
