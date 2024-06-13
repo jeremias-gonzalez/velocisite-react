@@ -11,17 +11,23 @@ export default {
     "./src/**/*.{ts,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    'node_modules/preline/dist/*.js',
   ],
   "darkMode": "class",
   theme: {
     colors:{
+      
      "green":"#2bb9a4",
+     "dark":"#041b1e",
     },
     extend: {
   },
   },
   plugins: [nextui(),
-    addVariablesForColors,],
+    addVariablesForColors,
+    require('preline/plugin'),
+  ],
+    
 };
 function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));

@@ -5,6 +5,8 @@ import { SparklesCore } from "../components/sparkles";
 import HowItWorks from "./HowItWorks";
 import Hero from "./Hero";
 import Aos from "aos"
+import Footer from "./Footer";
+
 import "aos/dist/aos.css" 
 export function SparklesPreview() {
   useEffect(()=>{
@@ -14,7 +16,9 @@ export function SparklesPreview() {
     
     <div className="h-[40rem] relative w-full dark:bg-black bg-blend-lighten flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div data-aos="fade-down"  >
+
        <Hero/>
+       
        
        </div>
        
