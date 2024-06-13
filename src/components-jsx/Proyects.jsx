@@ -5,6 +5,10 @@ const Proyects = () => {
   return (
     <div>
       <div className='flex px-100'>
+      <div className=' floating'>
+        <img src="src/assets/intento7.png" alt="" />
+       {/* <Spline scene="https://prod.spline.design/eSuK65aIGaGpWj1k/scene.splinecode" />  */}
+       </div>
         <div className='my-26  mx-40'>
         <div className='mx-10'>
         <h1 className='poppins-bold text-6xl '> <span className='gruponova'>Grupo</span> Hyd<span className='hydro'>ro</span> <br />Tec<span className='gruponova'>nova</span></h1>
@@ -22,10 +26,7 @@ const Proyects = () => {
                 </a>
         </div>
         </div>
-      <div className=' floating'>
-        <img src="" alt="" />
-       {/* <Spline scene="https://prod.spline.design/eSuK65aIGaGpWj1k/scene.splinecode" />  */}
-       </div>
+    
     </div>
     </div>
   )
