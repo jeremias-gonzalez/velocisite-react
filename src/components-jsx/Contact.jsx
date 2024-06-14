@@ -16,7 +16,7 @@ import { CalendarDaysIcon, LightBulbIcon } from '@heroicons/react/24/outline'
 import IconCalendly from './IconCalendly'
 export default function Contact() {
   return (
-    <div className="relative isolate overflow-hidden mx-10 shadow-xl rounded-xl bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <div className="relative isolate overflow-hidden my-20 sm:shadow-xl sm:rounded-xl bg-gray-900 py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
@@ -26,7 +26,7 @@ export default function Contact() {
             </p>
             <div className='flex'>
             <a className="text-black my-10 flex gradient   text-sm rounded-md p-2 poppins-bold " href="https://calendly.com/jeremiasgonzalez/30min" target="_blank">
-           <h2 className='text-dark'>Book a metting</h2>  <div className="mx-2 mt-auto"><IconCalendly /></div> 
+           <h2 className='text-dark'>Book a meeting</h2>  <div className="mx-2 mt-auto"><IconCalendly /></div> 
           </a>
           </div>
             {/* <div className="mt-6 flex max-w-md gap-x-4">
@@ -68,10 +68,10 @@ export default function Contact() {
               </dd>
             </div>
             <div className="flex flex-col items-start">
-              <div className="rounded-md bg-white/5 p-2 border border-green">
+              <div className="sm:rounded-md bg-white/5 p-2 border border-green">
                 <LightBulbIcon className="h-6 w-6 text-white" aria-hidden="true" />
               </div>
-              <dt className="mt-4 poppins-extrabold text-white">Prueba <span className='text-green'> Gratis </span>de Nuestros Servicios</dt>
+              <dt className="mt-4 poppins-extrabold text-white">Probá <span className='text-green'> Gratis </span> Nuestros Servicios</dt>
               <dd className="mt-2 leading-7 poppins-semibold text-gray-400">
               Nosotros creemos en la importancia de la confianza y la transparencia.
                Por eso, te ofrecemos

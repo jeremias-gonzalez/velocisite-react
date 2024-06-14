@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <footer class="w-full ">
-   <div class="mx-auto max-w-7xl px- sm:px-6 lg:px-8">
+        <footer class="sm:w-full ">
+   <div class="mx-auto sm:max-w-7xl px- sm:px-6 lg:px-8">
 
      {/* <div class="py-10 flex justify-between items-center flex-col gap-5 xl:flex-row">
        <div class="flex items-center flex-col xl:flex-row ">
@@ -53,7 +53,7 @@ const Footer = () => {
        
      </div> */}
    
-     <div class="mx-10 py-10">
+     <div class="mx-10  py-10">
        <div class="flex items-center justify-center">
          <span class="text-gray-400 poppins-semibold ">©<a target='_blank' href="https://velocisite.vercel.app/"> Vel<span className='text-green'>o</span>cisite</a> 2024, All rights reserved.</span>
          <div class="flex mx-10 space-x-2 sm:justify-center  ">

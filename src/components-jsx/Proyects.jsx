@@ -2,15 +2,15 @@ import React from 'react'
 
 const Proyects = () => {
   return (
-    <div>
-      <div className='flex px-100'>
-      <div className=' floating'>
-        <img src="../assets/intento7.png" alt="grupo hydro tecnova" />
+    <div  className=''>
+      <div className=' sm:flex sm:px-100'>
+      <div className=' hidden sm:block floating'>
+        <img src="src/assets/intento7.png" alt="grupo hydro tecnova" />
        
        </div>
-        <div className='my-26  mx-40'>
+        <div className='sm:my-26  sm:mx-40'>
         <div className='mx-10'>
-        <h1 className='poppins-bold text-6xl '> <span className='gruponova'>Grupo</span> Hyd<span className='hydro'>ro</span> <br />Tec<span className='gruponova'>nova</span></h1>
+        <h1 className='poppins-bold sm:text-6xl text-2xl '> <span className='gruponova'>Grupo</span> Hyd<span className='hydro'>ro</span> <br />Tec<span className='gruponova'>nova</span></h1>
         </div>
         <div className='my-10 mx-10'>
           <p className=' poppins-semibold leading-5'>
@@ -19,7 +19,11 @@ const Proyects = () => {
             Con ayuda de <span className='facebook'>Meta</span> ADS el sitio tuvo mas alcance de lo esperado.
             </p>
         </div>
-        <div className='mx-10 my-36'>
+        <div className=' sm:hidden floating'>
+        <img src="src/assets/intento7.png" alt="grupo hydro tecnova" />
+       
+       </div>
+        <div className='mx-10 sm:my-36'>
         <a href="#" className="text-sm poppins-extrabold leading-6 text-white">
                   Explorar <span aria-hidden="true">→</span>
                 </a>

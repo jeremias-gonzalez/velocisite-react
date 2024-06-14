@@ -2,11 +2,11 @@ import React from 'react'
 
 const FAQS = () => {
   return (
-    <div className="mx-72">
+    <div className="sm:mx-72 px-5">
         
         <div className="">
             <div className=""> 
-                <h1 className="dark:font-bold font-bold dark:text-4xl dark:text-center text-center text-4xl">
+                <h1 className="dark:font-bold font-bold dark:text-4xl dark:text-center text-center sm:text-4xl">
                 Preguntas Frecuentes
                 </h1>
                 <h2 className='dark:font-bold font-bold dark:text-sm dark:text-center text-center text-sm dark:my-5 dark:text-green'>FAQ`S</h2>
@@ -14,7 +14,7 @@ const FAQS = () => {
             <div class="hs-accordion-group center  ">
   <div class="hs-accordion p-2 my-5 rounded-xl shadow-md shadow-green  active" id="hs-basic-with-arrow-heading-one">
     <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-with-arrow-collapse-one">
-      <svg class="hs-accordion-active:hidden block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="m6 9 6 6 6-6"></path>
       </svg>
       <svg class="hs-accordion-active:block hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
