@@ -35,7 +35,7 @@ export default function About() {
                 </a>
               </div>
             </div>
-            <div className="relative sm:mx-10 sm:my-16  my-16 mt-16 h-80 lg:mt-8">
+            <div className="relative sm:mx-10 mx-2 sm:my-16  my-16 mt-16 h-80 lg:mt-8">
               <img
                 className="absolute sm:w-[36rem] sm:h-[36rem] w-[20rem] h-[20rem]   max-w-none sm:rounded-xl rounded-xl bg-white/5 "
                 src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg"

@@ -29,7 +29,7 @@ const Hero = () => {
                     </span>
                 </p>
                 
-                <div className='sm:my-20 mx-20  '>
+                <div className='sm:my-20 mx-25  '>
                  <Vector/>
                 </div>
                 </div>
