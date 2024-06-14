@@ -29,7 +29,7 @@ const Hero = () => {
                     </span>
                 </p>
                 
-                <div className='sm:my-20 mx-25  '>
+                <div className='sm:my-20 mx-28  '>
                  <Vector/>
                 </div>
                 </div>
@@ -38,7 +38,7 @@ const Hero = () => {
                     <a
                         href="#"
                         title=""
-                        className="inline-flex items-center justify-center sm:w-full p-2 sm:px-8 sm:py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover"
+                        className="inline-flex poppins-bold items-center justify-center sm:w-full p-2 sm:px-8 sm:py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover"
                         role="button"
                     >
                         Explorar

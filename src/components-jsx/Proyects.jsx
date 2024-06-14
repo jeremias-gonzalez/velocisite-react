@@ -20,7 +20,7 @@ const Proyects = () => {
             </p>
         </div>
         <div className=' sm:hidden floating'>
-        <img src="src/assets/intento7.png" alt="grupo hydro tecnova" />
+        <img src={mockupGHTN} alt="grupo hydro tecnova" />
        
        </div>
         <div className='mx-10 sm:my-36'>
