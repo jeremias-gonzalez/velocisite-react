@@ -1,5 +1,5 @@
 import React from 'react'
-
+import mockupGHTN from "../assets/intento7.png"
 const Proyects = () => {
   return (
     <div  className=''>
