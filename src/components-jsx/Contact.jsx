@@ -25,7 +25,7 @@ export default function Contact() {
               Ingresando en Book a meeting , te podrás contactar con el equipo para empezar a crear o resolver tu proyecto. 
             </p>
             <div className='flex'>
-            <a className="text-black my-10 flex gradient   text-sm rounded-md p-2 poppins-bold " href="https://calendly.com/jeremiasgonzalez/30min" target="_blank">
+            <a className="text-black my-10 flex gradient   text-sm rounded-md p-2 poppins-bold " href="https://calendly.com/jeremiasgonzalez/30min">
            <h2 className='text-dark'>Book a meeting</h2>  <div className="mx-2 mt-auto"><IconCalendly /></div> 
           </a>
           </div>

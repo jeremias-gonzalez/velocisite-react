@@ -1,4 +1,10 @@
+"use client"
 import { useState } from 'react'
+import { useEffect } from 'react';
+
+
+import "preline/preline";
+import { IStaticMethods } from "preline/preline";
 
 import Navbar2 from './components-jsx/Navbar2'
 import Footer from './components-jsx/Footer'
@@ -12,7 +18,6 @@ import About from './components-jsx/About'
 import Proyects from './components-jsx/Proyects'
 import Contact from './components-jsx/Contact'
 function App() {
-
 
   return (
     <div className='bg-white  dark:bg-dark  '>

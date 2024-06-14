@@ -5,7 +5,7 @@ const Proyects = () => {
     <div  className=''>
       <div className=' sm:flex sm:px-100'>
       <div className=' hidden sm:block floating'>
-        <img src="src/assets/intento7.png" alt="grupo hydro tecnova" />
+        <img src="../../src/assets/intento7.png" alt="grupo hydro tecnova" />
        
        </div>
         <div className='sm:my-26  sm:mx-40'>
@@ -24,7 +24,7 @@ const Proyects = () => {
        
        </div>
         <div className='mx-10 sm:my-36'>
-        <a href="#" className="text-sm poppins-extrabold leading-6 text-white">
+        <a href="https://grupohydrotecnova.netlify.app/" target='_blank' className="text-sm poppins-extrabold leading-6 text-white">
                   Explorar <span aria-hidden="true">→</span>
                 </a>
         </div>

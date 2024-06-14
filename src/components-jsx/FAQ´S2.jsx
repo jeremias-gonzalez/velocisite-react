@@ -1,6 +1,6 @@
 import React from 'react'
-
 const FAQS2 = () => {
+    
   return (
     <div className='sm:mx-72 px-5'>
         <div className=""> 
