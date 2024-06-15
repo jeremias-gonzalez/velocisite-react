@@ -15,21 +15,68 @@ const Hero = () => {
             
                 
                 <div className='sm:flex '>
-                <p className="sm:mt-1 sm:text-4xl sm:mx-5 mx-5 text-2xl font-bold sm:leading-tight text-gray-900 sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
-                <span className="relative inline-flex sm:inline poppins-bold">
-                        <span className="  w-full h-full absolute inset-0"></span>
-                        <span className="relative mx-3 bg-gradient-to-r from-teal-500 to-emerald-200 bg-clip-text text-transparent poppins-bold "> Tiempos </span>
+                <p className="
+                sm:mt-24
+                
+                sm:text-4xl 
+                sm:mx-5
+                sm:leading-tight
+                sm:leading-tight
+                sm:text-5xl
+                font-pj
+                mx-5 
+                text-2xl 
+                font-bold
+                text-gray-900
+                lg:text-6xl
+                lg:leading-tight ">
+                <span className="
+                sm:inline
+                relative
+                inline-flex 
+                poppins-bold">
+                        <span className="  
+                        w-full 
+                        h-full
+                        absolute inset-0"></span>
+                        <span className="
+                        relative 
+                        mx-3
+                        bg-gradient-to-r 
+                        from-teal-500
+                        to-emerald-200 
+                        bg-clip-text 
+                        text-transparent
+                        poppins-bold "> Tiempos </span>
                     </span>
                    
                     cortos resultados
                     
-                    <span className="relative inline-flex sm:inline">
-                        <span className="bg-green blur-lg filter opacity-30 w-full h-full absolute inset-0 rounded-4xl m-1"></span>
-                        <span className="relative mx-3 poppins-bold"> veloces </span>
+                    <span className="
+                    sm:inline
+                    relative
+                    inline-flex ">
+                        <span className="
+                        bg-green
+                        blur-lg 
+                        filter
+                        opacity-30 
+                        w-full
+                        h-full
+                        absolute
+                        inset-0
+                        rounded-4xl
+                        m-1"></span>
+                        <span className="
+                        relative
+                        mx-3
+                        poppins-bold"> veloces </span>
                     </span>
                 </p>
                 
-                <div className='sm:my-20 mx-28  '>
+                <div className='
+                sm:mx-1
+                mx-28  '>
                  <Vector/>
                 </div>
                 </div>
@@ -52,7 +99,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className="pb-12 bg-white">
+        {/* <div className="pb-12 bg-white">
             <div className="relative">
                 <div className="absolute inset-0 h-2/3 bg-gray-50"></div>
                 <div className="relative mx-auto">
@@ -61,7 +108,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   
      
