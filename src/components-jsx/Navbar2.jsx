@@ -7,8 +7,8 @@ const Navbar2 = () => {
   return (
     <ThemeProvider>
     <div>
-        <header class=" sm:fixed fixed flex flex-wrap sm:z-50  z-50  sm:justify-start sm:flex-nowrap w-full bg-white text-sm my-1 px-5 dark:bg-neutral-800">
-  <nav className= "sm:backdrop-blur-sm sm:bg-gray/30 dark:backdrop-blur-xl backdrop-blur-lg bg-gray/30 dark:rounded-xl rounded-xl mx-10 max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+        <header class=" sm:fixed fixed flex flex-wrap sm:z-50  z-50  sm:justify-start sm:flex-nowrap w-full bg-white text-sm my-1  px-5 dark:bg-neutral-800">
+  <nav className= "sm:backdrop-blur-sm sm:bg-gray/30 dark:backdrop-blur-xl backdrop-blur-lg bg-gray/30 dark:rounded-xl rounded-xl mx-10 max-w-[85rem] w-full mx-auto px-4 py-3 sm:flex sm:py-3 sm:mx-10 sm:items-center sm:justify-between" aria-label="Global">
  
     <div className="flex items-center justify-between">
     <div className='sm:hidden'>
@@ -29,7 +29,7 @@ const Navbar2 = () => {
     </div>
     <div id="navbar-collapse-with-animation" class=" hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
     
-      <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5 mx-36 sm:mx-1 ">
+      <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5  sm:mx-1 ">
       <div className='hidden sm:block'>
        <Handlemode  />   
    </div>

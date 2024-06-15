@@ -4,15 +4,23 @@ const FAQS2 = () => {
   return (
     <div className='sm:mx-72 px-5'>
         <div className=""> 
-                <h1 className="dark:font-bold font-bold dark:text-4xl dark:text-center text-center sm:text-4xl">
+                <h1 className="
+                poppins-extrabold  
+                text-center
+                sm:text-4xl">
                 Preguntas Frecuentes
                 </h1>
-                <h2 className='dark:font-bold font-bold dark:text-sm dark:text-center text-center text-sm dark:my-5 dark:text-green'>FAQ`S</h2>
+                <h2 className='
+                poppins-bold 
+                text-center
+                text-sm
+                my-5
+                text-green'>FAQ`S</h2>
             </div>
-        <div class="hs-accordion-group">
-    <div class="hs-accordion hs-accordion-active:border-gray-200 bg-white border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-one">
+        <div class="hs-accordion-group ">
+    <div class="hs-accordion bg-white s rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-one">
       <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-one">
-      ¿Qué servicios de diseño web ofrecen?
+      <p className='sm:poppins-bold poppins-bold'>¿Qué servicios de diseño web ofrecen?</p>
         <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14"></path>
           <path d="M12 5v14"></path>
@@ -34,9 +42,9 @@ const FAQS2 = () => {
       </div>
     </div>
   
-    <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-two">
+    <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white  rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-two">
       <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-two">
-      ¿Cómo puedo saber si necesito un sitio web de e-commerce?
+      <p className='sm:poppins-bold poppins-bold'>¿Cómo puedo saber si necesito un sitio web de e-commerce?</p>
         <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14"></path>
           <path d="M12 5v14"></path>
@@ -60,9 +68,9 @@ const FAQS2 = () => {
       </div>
     </div>
   
-    <div class="hs-accordion hs-accordion-active:border-gray-200 bg-white border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-three">
+    <div class="hs-accordion hs-accordion-active:border-gray-200 bg-white  rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-three">
       <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-three">
-      ¿Qué tecnologías utilizan para el desarrollo front-end?
+     <p className='sm:poppins-bold poppins-bold'> ¿Qué tecnologías utilizan para el desarrollo front-end?</p>
         <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14"></path>
           <path d="M12 5v14"></path>
@@ -81,9 +89,9 @@ const FAQS2 = () => {
       </p>
         </div>
       </div>
-      <div class="hs-accordion hs-accordion-active:border-gray-200 bg-white border border-transparent rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-three">
+      <div class="hs-accordion hs-accordion-active:border-gray-200 bg-white  rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-three">
       <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-three">
-      ¿Cuánto tiempo tarda en completarse un proyecto web?
+      <p className='sm:poppins-bold poppins-bold'>¿Cuánto tiempo tarda en completarse un proyecto web?</p>
         <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14"></path>
           <path d="M12 5v14"></path>
