@@ -2,7 +2,7 @@ import Logo from './Logo'
 import React from 'react'
 import Handlemode from './Handlemode'
 import  {ThemeProvider} from "./ThemeContext"
-
+import { Link } from 'react-router-dom'
 const Navbar2 = () => {
   return (
     <ThemeProvider>
@@ -33,11 +33,11 @@ const Navbar2 = () => {
       <div className='hidden sm:block'>
        <Handlemode  />   
    </div>
-        <a className="poppins-semibold text-lg  text-blue-500" href="#" aria-current="page">Home</a>
-        <a className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">About</a>
-        <a className="poppins-semibold text-lg  text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Work</a>
-        <a className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Services</a>
-        <a className="poppins-semibold text-lg  text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="#">FAQ´S</a>      
+        <Link className="poppins-semibold text-lg  text-blue-500" to="" aria-current="page">Home</Link>
+        <Link className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" to="./About">About</Link>
+        <Link className="poppins-semibold text-lg  text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" to="./Proyects">Work</Link>
+        <Link className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" to="./Services">Services</Link>
+        <Link className="poppins-semibold text-lg  text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" to="./FAQS2">FAQ´S</Link>      
       </div>
       
     </div>

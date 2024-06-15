@@ -1,29 +1,29 @@
-import { PaintBrushIcon, ShoppingCartIcon, RocketLaunchIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { PaintBrushIcon, ShoppingCartIcon, RocketLaunchIcon, CheckCircleIcon} from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'E-commerce',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Diseño web previo a la implementacion de la plataforma ,Herramientas de análisis y gestion de inventarios, Integracion de Mercado Pago como sistema de pago , y logistica, Chatbot para preguntas frecuentes ',
     icon: ShoppingCartIcon,
   },
   {
     name: 'Landing Page PRO',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Mayor tasa de conversion , Diseño atractivo y centrado en el usuario , Implementacion de tecnicas SEO y marketing digital.',
     icon: RocketLaunchIcon,
   },
   {
     name: 'Design Web',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Diseño Profesional y Moderno, Mejora de la experiencia de usuario , Maquetado Responsive para smartphone,tablet y Desktop .',
     icon: PaintBrushIcon,
   },
-  // {
-  //   name: 'Advanced security',
-  //   description:
-  //     'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-  //   icon: FingerPrintIcon,
+  //  {
+  //    name: 'Meta ADS',
+  //    description:
+  //      'Segmentación precisa de la audiendia , Analisis y optimización de campañas para maximizar el retorno de inversión (ROI) , Creatividad en anuncios para captar la atención del usuario, Informes detallados y métricas para medir el éxito de las campañas',
+  //    icon:CheckCircleIcon,
   // },
 ]
 
