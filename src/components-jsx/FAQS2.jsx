@@ -2,19 +2,19 @@ import React from 'react'
 const FAQS2 = () => {
     
   return (
-    <div className='sm:mx-72 px-5'>
+    <div className="sm:mx-72 px-5">
     <div>
       <h1 className="poppins-extrabold text-center sm:text-4xl">
         Preguntas Frecuentes
       </h1>
-      <h2 className='poppins-bold text-center text-sm my-5 text-green'>
+      <h2 className="poppins-bold text-center text-sm my-5 text-green">
         FAQ`S
       </h2>
     </div>
     <div className="hs-accordion-group">
       <div className="hs-accordion bg-white rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-one">
         <button className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-one">
-          <p className='sm:poppins-bold poppins-bold'>¿Qué servicios de diseño web ofrecen?</p>
+          <p className="poppins-bold">¿Qué servicios de diseño web ofrecen?</p>
           <svg className="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="M12 5v14"></path>
@@ -28,7 +28,7 @@ const FAQS2 = () => {
             <p className="text-gray-800 poppins-medium p-3 text-sm dark:text-neutral-200">
               Ofrecemos una amplia gama de servicios de diseño web, que incluyen la
               creación de sitios web personalizados, diseño de interfaces de usuario
-              <span className='ui'>(UI)</span>, experiencia de usuario <span className='ux'>(UX)</span>, diseño responsivo para dispositivos móviles,
+              <span className="ui">(UI)</span>, experiencia de usuario <span className="ux">(UX)</span>, diseño responsivo para dispositivos móviles,
               y rediseño de sitios web existentes. Nuestro objetivo
               es crear sitios web visualmente atractivos, funcionales y optimizados para la mejor experiencia del usuario.
             </p>
@@ -38,7 +38,7 @@ const FAQS2 = () => {
   
       <div className="hs-accordion hs-accordion-active:border-gray-200 active bg-white rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-two">
         <button className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-two">
-          <p className='sm:poppins-bold poppins-bold'>¿Cómo puedo saber si necesito un sitio web de e-commerce?</p>
+          <p className="poppins-bold">¿Cómo puedo saber si necesito un sitio web de e-commerce?</p>
           <svg className="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="M12 5v14"></path>
@@ -63,7 +63,7 @@ const FAQS2 = () => {
   
       <div className="hs-accordion hs-accordion-active:border-gray-200 bg-white rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-three">
         <button className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-three">
-          <p className='sm:poppins-bold poppins-bold'>¿Qué tecnologías utilizan para el desarrollo front-end?</p>
+          <p className="poppins-bold">¿Qué tecnologías utilizan para el desarrollo front-end?</p>
           <svg className="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="M12 5v14"></path>
@@ -86,7 +86,7 @@ const FAQS2 = () => {
   
       <div className="hs-accordion hs-accordion-active:border-gray-200 bg-white rounded-xl dark:hs-accordion-active:border-neutral-700 dark:bg-neutral-800 dark:border-transparent" id="hs-active-bordered-heading-four">
         <button className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-active-bordered-collapse-four">
-          <p className='sm:poppins-bold poppins-bold'>¿Cuánto tiempo tarda en completarse un proyecto web?</p>
+          <p className="poppins-bold">¿Cuánto tiempo tarda en completarse un proyecto web?</p>
           <svg className="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="M12 5v14"></path>
@@ -108,6 +108,7 @@ const FAQS2 = () => {
       </div>
     </div>
   </div>
+  
 
   )
 }
