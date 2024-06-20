@@ -27,6 +27,7 @@ export default {
   plugins: [nextui(),
     addVariablesForColors,
     require('preline/plugin'),
+    
    
   ],
     
