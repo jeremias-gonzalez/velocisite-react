@@ -1,14 +1,24 @@
 import Logo from './Logo'
-import React , {useState} from 'react'
+import React , {useState , useRef} from 'react'
 import Handlemode from './Handlemode'
 import  {ThemeProvider} from "./ThemeContext"
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 const Navbar2 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+  const scrollToRef = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+    toggleNav(); // Cerrar el menú después de hacer clic en un enlace
+  };
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const servicesRef = useRef(null);
+  const faqsRef = useRef(null);
+
   return (
     
     <ThemeProvider>
@@ -77,42 +87,49 @@ const Navbar2 = () => {
               <div className="hidden sm:block">
                 <Handlemode />
               </div>
-              <Link
+              <NavLink
                 className="poppins-semibold text-lg text-blue-500"
-                to=""
+                to="/"
                 aria-current="page"
                 onClick={toggleNav}
               >
                 Home
-              </Link>
-              <Link
+              </NavLink>
+              <a
                 className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                to="./About"
+                href='#about'
                 onClick={toggleNav}
               >
                 About
-              </Link>
-              <Link
+              </a>
+              <a
                 className="poppins-semibold text-lg text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                to="./Proyects"
+                href='#projects'
                 onClick={toggleNav}
               >
                 Work
-              </Link>
-              <Link
+              </a>
+              <a
                 className="poppins-semibold text-lg sm:text-green text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                to="./Services"
+                href='#services'
                 onClick={toggleNav}
               >
                 Services
-              </Link>
-              <Link
+              </a>
+              <a
                 className="poppins-semibold text-lg text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-                to="./FAQS2"
+                href='#faqs'
                 onClick={toggleNav}
               >
                 FAQ'S
-              </Link>
+              </a>
+              <a
+                className="poppins-semibold text-lg text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
+                href='#contact'
+                onClick={toggleNav}
+              >
+                Contact
+              </a>
             </div>
           </div>
 

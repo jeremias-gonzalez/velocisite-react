@@ -32,10 +32,10 @@ export default function About() {
                El team te asegura la mejor calidad<span className="text-green"> DEMO</span> sin costos y sin limites para demostrarte que podemos.   
                 </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-               
+{/*                
                 <a href="#" className="text-sm font-semibold leading-6 text-white">
                   How it works? <span aria-hidden="true">→</span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="relative sm:mx-10 mx-5 sm:my-16  my-16 mt-16 h-80 lg:mt-8">

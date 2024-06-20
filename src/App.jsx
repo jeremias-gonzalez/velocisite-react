@@ -18,7 +18,7 @@ import HowItWorks from './components-jsx/HowItWorks'
 import About from './components-jsx/About'
 import Proyects from './components-jsx/Proyects'
 import Contact from './components-jsx/Contact'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 function App() {
 
   return (
@@ -27,14 +27,26 @@ function App() {
       <Navbar2/>
       <SparklesPreview/>
       
-      <About/>
-       <Proyects/>
-      <Services/>
-      <FAQS2/>
-      <Contact/>
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Proyects />
+      </div>
+      <div id="services">
+        <Services />
+      </div>
+      <div id="faqs">
+        <FAQS2 />
+      </div>
+       <div id='contact'>
+        <Contact/>
+       </div>
       <Footer/>
-    </div>
-    </Router>
+      </div>
+      </Router>
+   
+    
   )
 }
 

@@ -82,14 +82,14 @@ const Hero = () => {
                 </div>
                 <h1 className="px-6 sm:my-10 text-lg font-bold text-gray-600 poppins-bold" >For <span className='text-green'>everyone.</span></h1>
                 <div className="sm:px-8 sm:items-center sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
-                    <a
+                    {/* <a
                         href="#"
                         title=""
                         className="inline-flex poppins-bold items-center justify-center sm:w-full p-2 sm:px-8 sm:py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover"
                         role="button"
                     >
                         Explorar
-                    </a>
+                    </a> */}
 
                     
                 
