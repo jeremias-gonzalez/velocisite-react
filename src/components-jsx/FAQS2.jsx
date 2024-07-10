@@ -26,7 +26,7 @@ const FAQS2 = () => {
     {
       question: '¿Cuánto tiempo tarda en completarse un proyecto web?',
       answer:
-        'La duración de un proyecto web puede variar según la complejidad y el alcance del mismo. Un sitio web básico puede tomar de 4 a 6 semanas, mientras que un sitio de e-commerce o una solución más personalizada pueden requerir de 8 a 12 semanas o más. Durante nuestra consulta inicial, te proporcionaremos un cronograma estimado basado en tus requisitos específicos.',
+        'La duración de un proyecto web puede variar según la complejidad y el alcance del mismo. Un sitio web básico puede tomar de 1 a 2 semanas, mientras que un sitio de e-commerce o una solución más personalizada pueden requerir de 3 a 4 semanas o más. Durante nuestra consulta inicial, te proporcionaremos un cronograma estimado basado en tus requisitos específicos.',
     },
   ];
 

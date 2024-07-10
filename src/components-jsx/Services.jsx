@@ -10,7 +10,7 @@ const features = [
   {
     name: 'Landing Page PRO',
     description:
-      'Mayor tasa de conversion , Diseño atractivo y centrado en el usuario , Implementacion de tecnicas SEO y marketing digital.',
+      'Mayor tasa de conversion , Diseño atractivo y centrado en el usuario , Implementacion de tecnicas SEO y marketing digital.Ademas contamos con la integracion de Chatbot para preguntas frecuentes ',
     icon: RocketLaunchIcon,
   },
   {
